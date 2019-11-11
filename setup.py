@@ -21,8 +21,8 @@ setup(
     zip_safe=False,
     packages=['wechat_webhook'],
     install_requires=[
-        'sentry>=9.0.0',
-        'requests',
+        'sentry-sdk>=0.13.2',
+        'requests==2.22.0',
     ],
     entry_points={
         'sentry.plugins': [
